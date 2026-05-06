@@ -12,7 +12,7 @@ import time
 # 設定網頁標題與圖示
 st.set_page_config(page_title="線上擲筊系統", page_icon="🏮")
 
-st.title("🏮 虔誠線上擲筊")
+st.title("🏮 擲筊")
 st.write("請在心中默念你的問題與姓名、生日、地址，隨後按下按鈕。")
 
 # 使用 Session State 來儲存結果，避免網頁重整就消失
